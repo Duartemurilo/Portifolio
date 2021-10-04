@@ -1,9 +1,9 @@
 import React from 'react'
-import { AbaoutContainer } from '../Styles/Components/AbaoutStyle'
+import { AboutContainer } from '../Styles/Components/AboutStyle'
 
 function About() {
   return (
-    <AbaoutContainer>
+    <AboutContainer>
       <div>
         <h1>Olá, Eu sou o Murilo. Prazer em te conhecer. 👋</h1>
         <h2>
@@ -12,7 +12,7 @@ function About() {
           muito confiante,curioso, e facinado por aprender ainda mais cada dia.
         </h2>
       </div>
-    </AbaoutContainer>
+    </AboutContainer>
   )
 }
 
