@@ -4,6 +4,12 @@ export const HeaderContainer = styled.div`
   display: flex;
   width: 100%;
   height: 14vh;
+  align-items: center;
+  justify-content: flex-end;
+  transition: all ease 1s;
+  position: fixed;
+  top: 0;
+
   div {
     display: flex;
     align-items: center;
@@ -47,6 +53,4 @@ export const HeaderContainer = styled.div`
       }
     }
   }
-  align-items: center;
-  justify-content: flex-end;
 `
