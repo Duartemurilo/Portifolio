@@ -7,7 +7,7 @@ export const SkilContainer = styled.div`
   width: 90vw;
   background-color: white;
   border: 1px solid #e6ecf8;
-  margin-bottom: 20vw;
+  margin-bottom: 5vw;
   margin-top: -20vh;
 `
 export const SkilLeft = styled.div`
