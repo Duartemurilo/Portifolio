@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import About from '../Components/About'
 import Banner from '../Components/Banner'
+import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import Projects from '../Components/Projects'
 import Skils from '../Components/Skils'
@@ -31,6 +32,7 @@ function HomePage() {
       <About />
       <Skils />
       <Projects />
+      <Footer />
     </HomeContainer>
   )
 }

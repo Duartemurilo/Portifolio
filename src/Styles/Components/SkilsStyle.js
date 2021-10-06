@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+// #e6ecf8
 export const SkilContainer = styled.div`
   display: flex;
   height: 40vh;
@@ -44,7 +45,7 @@ export const SkilRight = styled.div`
       list-style-type: none;
       flex-direction: column;
       margin-top: 0;
-      font-size: 16px;
+      font-size: 20px;
       margin-right: 70px;
     }
     li {
@@ -58,6 +59,7 @@ export const SkilRight = styled.div`
   p {
     color: #141c3a;
     margin-top: 0;
+    font-size: 20px;
   }
   height: 40vh;
   border-radius: 30px;

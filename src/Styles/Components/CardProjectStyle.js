@@ -12,7 +12,6 @@ export const CardProjectContainer = styled.div`
 
   p {
     color: white;
-    font-weight: 200;
   }
 `
 export const CardAbout = styled.div`
@@ -34,7 +33,6 @@ export const CardAbout = styled.div`
   p {
     color: white;
     font-size: 20px;
-    font-weight: 400;
   }
   div {
     width: 90%;
@@ -44,7 +42,7 @@ export const CardAbout = styled.div`
     width: 15vw;
     font-size: 16px;
     color: #4da9ff;
-    font-weight: bold;
+
     cursor: pointer;
     height: 6vh;
     border: 2px solid #4da9ff;

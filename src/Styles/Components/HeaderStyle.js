@@ -31,14 +31,13 @@ export const HeaderContainer = styled.div`
       a {
         text-decoration: none;
         color: #4da9ff;
-        font-weight: bold;
       }
     }
     button {
       width: 15vw;
       font-size: 16px;
       color: #4da9ff;
-      font-weight: bold;
+
       cursor: pointer;
       height: 6vh;
       border: 2px solid #4da9ff;

@@ -4,7 +4,7 @@ import ImportantDevicesOutlinedIcon from '@material-ui/icons/ImportantDevicesOut
 
 function Skils() {
   return (
-    <SkilContainer>
+    <SkilContainer id="Tecnologias">
       <SkilLeft>
         <ImportantDevicesOutlinedIcon style={{ fontSize: 80 }} />
       </SkilLeft>

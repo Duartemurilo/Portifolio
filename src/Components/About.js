@@ -3,7 +3,7 @@ import { AboutContainer } from '../Styles/Components/AboutStyle'
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="Sobre">
       <div>
         <h1>Olá, Eu sou o Murilo. Prazer em te conhecer. 👋</h1>
         <p>

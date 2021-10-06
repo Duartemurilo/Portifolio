@@ -10,7 +10,7 @@ export const BannerContainer = styled.div`
   h1 {
     margin-top: 4vh;
     font-size: 55px;
-    font-weight: bold;
+
     color: #111212;
     margin-bottom: 0;
   }
@@ -18,7 +18,6 @@ export const BannerContainer = styled.div`
     color: #0a0a0ae6;
     font-size: 20px;
     margin-top: 1vh;
-    font-weight: 1000;
   }
   img {
     height: 30vh;

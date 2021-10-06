@@ -9,8 +9,6 @@ export const ProjectContanier = styled.div`
   margin-top: 2vh;
   p {
     font-size: 32px;
-    color: #363636;
-    font-weight: bold;
   }
 `
 export const ContainerProject = styled.div`

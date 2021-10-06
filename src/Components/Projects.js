@@ -2,28 +2,28 @@ import React from 'react'
 import { ContainerProject, ProjectContanier } from '../Styles/Components/ProjectsStyle'
 import CardProject from './CardProject'
 import NetflixImage from '../Images/NetfliCloneImage.jpeg'
-import SpotifyImage from '../Images/logotipospotify.png'
+import SpotifyImage from '../Images/spotify-ai-technology.jpeg'
 import IfoodImage from '../Images/IfoodBanner.jpeg'
 import NubankImage from '../Images/NubankLogo.png'
 
 function Projects() {
   const projects = [
     {
-      name: 'Netflix clone',
+      name: 'Netflix Clone',
       id: 1,
       image: NetflixImage,
       about:
         'Projeto que tem o objetivo de clonar algumas paginas do netflix com o intuito de desenvolver abilidades tecnicas, pricipalmente manipulação de APIs e estilizaçåo .',
     },
     {
-      name: 'Spotify clone',
+      name: 'Spotify Clone',
       id: 2,
       image: SpotifyImage,
       about:
         'Como mais um amante da musica e por ser fascinado pela facilidade e qualidade que o spotify nos disponibiliza, tive a ideia de fazer um clone do spotify que tem como de desenvolver abilidades tecnicas, pricipalmente manipulação da API disponibilizada pelo própio spotify.',
     },
     {
-      name: 'Ifoood clone',
+      name: 'Ifood Clone',
       id: 3,
       image: IfoodImage,
       about:
@@ -39,7 +39,7 @@ function Projects() {
   ]
 
   return (
-    <ProjectContanier>
+    <ProjectContanier id="Projetos">
       <p>Meus Projetos Recentes</p>
       <ContainerProject>
         {projects?.map((project) => {

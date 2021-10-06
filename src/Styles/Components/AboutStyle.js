@@ -24,7 +24,7 @@ export const AboutContainer = styled.div`
   }
   h1 {
     font-size: 40px;
-    font-weight: bold;
+
     color: white;
   }
   p {
