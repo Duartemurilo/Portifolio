@@ -6,6 +6,7 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+
   height: 50vh;
   background: linear-gradient(180deg, rgba(0, 145, 255, 1) 4%, rgba(0, 166, 230, 1) 92%);
 `
@@ -18,7 +19,7 @@ export const TextFooter = styled.div`
   margin: 2rem auto;
   width: 30vw;
   height: 20vh;
-
+  margin-top: 10vh;
   font-size: 30px;
   p {
     margin-top: 0;
@@ -68,7 +69,7 @@ export const DivIcons = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #b52b65, #ed6663);
+    background: linear-gradient(to left, #00eeff, #3232a8);
     z-index: -1;
     border-radius: 50%;
     transform: translate(100%, 100%);

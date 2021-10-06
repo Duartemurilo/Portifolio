@@ -23,10 +23,10 @@ export const HeaderContainer = styled.div`
       align-items: center;
       justify-content: space-evenly;
       list-style-type: none;
+
       li {
-        :hover {
-          transform: scale(1.1);
-        }
+        display: inline-block;
+        position: relative;
       }
       a {
         text-decoration: none;
@@ -37,7 +37,8 @@ export const HeaderContainer = styled.div`
       width: 15vw;
       font-size: 16px;
       color: #4da9ff;
-
+      font-family: 'Poiret One', cursive;
+      font-weight: bold;
       cursor: pointer;
       height: 6vh;
       border: 2px solid #4da9ff;
@@ -45,6 +46,7 @@ export const HeaderContainer = styled.div`
       padding: 5px;
       background: none;
       margin-right: 4vw;
+      font-weight: bold;
       :hover {
         transform: scale(1.1);
         background-color: #4da9ff;

@@ -42,12 +42,13 @@ export const CardAbout = styled.div`
     width: 15vw;
     font-size: 16px;
     color: #4da9ff;
-
+    font-family: 'Poiret One', cursive;
     cursor: pointer;
     height: 6vh;
     border: 2px solid #4da9ff;
     border-radius: 20px;
     padding: 5px;
+    font-weight: bold;
     background: none;
     :hover {
       transform: scale(1.1);

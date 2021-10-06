@@ -18,7 +18,7 @@ function Header({ whiteBackground }) {
                 <a href="#Tecnologias">Tecnologias</a>
               </li>
               <li>
-                <a href="#web">Trabalhe comigo</a>
+                <a href="#trabalhe">Trabalhe comigo</a>
               </li>
             </ul>
             <button>Contante -me</button>
@@ -29,7 +29,10 @@ function Header({ whiteBackground }) {
           <div>
             <ul>
               <li>
-                <a href="#Projetos">Projetos</a>
+                <a href="#Projetos">
+                  {' '}
+                  <p>Projetos</p>
+                </a>
               </li>
               <li>
                 <a href="#Sobre">Sobre</a>

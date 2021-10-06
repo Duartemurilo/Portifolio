@@ -9,8 +9,8 @@ function Footer() {
   return (
     <FooterContainer>
       <TextFooter>
-        <p>Living, learning, & leveling</p>
-        <p>up one day at a time.</p>
+        <p>Vivendo e aprendendo </p>
+        <p>um dia de cada vez..</p>
       </TextFooter>
       <ContainerSocialMedia>
         <DivIcons>
