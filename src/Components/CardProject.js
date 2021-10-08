@@ -16,7 +16,9 @@ function CardProject({ project }) {
           {' '}
           <p>{project.about}</p>
         </div>
-        <button>Visite o site</button>
+        <button>
+          <a href={project.link}>Visite o site</a>
+        </button>
       </CardAbout>
     </CardProjectContainer>
   )

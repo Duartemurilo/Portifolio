@@ -21,10 +21,17 @@ export const ContainerWorkTogether = styled.div`
     background: none;
     font-family: 'Poiret One', cursive;
     font-weight: bold;
+    a {
+      text-decoration: none;
+      color: #4da9ff;
+    }
     :hover {
       transform: scale(1.1);
       background-color: #4da9ff;
       color: white;
+      a {
+        color: white;
+      }
     }
   }
 `

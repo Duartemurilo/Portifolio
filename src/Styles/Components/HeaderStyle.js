@@ -7,8 +7,6 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   transition: all ease 1s;
-  position: fixed;
-  top: 0;
 
   div {
     display: flex;

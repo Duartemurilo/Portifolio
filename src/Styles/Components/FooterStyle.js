@@ -21,9 +21,11 @@ export const TextFooter = styled.div`
   height: 20vh;
   margin-top: 10vh;
   font-size: 30px;
+
   p {
     margin-top: 0;
     margin-bottom: 0;
+    color: white;
   }
 `
 

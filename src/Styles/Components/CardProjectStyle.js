@@ -12,6 +12,7 @@ export const CardProjectContainer = styled.div`
 
   p {
     color: white;
+    font-size: 25px;
   }
 `
 export const CardAbout = styled.div`
@@ -50,6 +51,10 @@ export const CardAbout = styled.div`
     padding: 5px;
     font-weight: bold;
     background: none;
+    a {
+      text-decoration: none;
+      color: white;
+    }
     :hover {
       transform: scale(1.1);
       background-color: #4da9ff;

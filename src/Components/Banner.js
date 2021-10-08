@@ -7,7 +7,7 @@ function Banner() {
     <BannerContainer>
       <ContainerTitle>
         <h1> Desenvolvedor Front-end</h1>
-        <h2>Eu faço pojetos com designs simples e eu amo o que eu faço.</h2>
+        <h2>Eu faço pojetos com designs simples e amo o que eu faço.</h2>
       </ContainerTitle>
       <ContainerImage>
         {' '}

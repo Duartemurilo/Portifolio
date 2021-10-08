@@ -9,7 +9,7 @@ function About() {
         <p>
           Minha jornada como desenvolvedor front-end começou a 1 ano atrás, desde então eu venho fazendo projetos
           pessoas e colaborando com alguns colegas com o intuindo de desenvolver habilidades técnicas e pessoais, eu sou
-          muito confiante, curioso, e fascinado por aprender ainda mais cada dia.
+          muito confiante, curioso, e fascinado por aprender ainda mais a cada dia.
         </p>
       </div>
     </AboutContainer>

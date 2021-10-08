@@ -26,36 +26,6 @@ export const SkilRight = styled.div`
   align-items: center;
   justify-content: center;
 
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    width: 33%;
-    max-width: 33%;
-    height: 60%;
-
-    margin-left: 0.5vw;
-
-    ul {
-      display: flex;
-
-      width: 20%;
-      font-size: 18px;
-      list-style-type: none;
-      flex-direction: column;
-      margin-top: 0;
-      font-size: 20px;
-      margin-right: 70px;
-    }
-    li {
-      margin-top: 8px;
-      margin-right: 10px;
-    }
-    a {
-      text-decoration: none;
-    }
-  }
   p {
     color: #141c3a;
     margin-top: 0;
@@ -65,4 +35,52 @@ export const SkilRight = styled.div`
   border-radius: 30px;
   width: 100%;
   border-bottom-left-radius: 0px;
+`
+
+export const ResumeFrontEnd = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 33%;
+  max-width: 33%;
+  height: 60%;
+
+  margin-left: 0.5vw;
+
+  ul {
+    display: flex;
+
+    width: 20%;
+    font-size: 18px;
+    list-style-type: none;
+    flex-direction: column;
+    margin-top: 0;
+    font-size: 20px;
+    margin-right: 70px;
+  }
+  li {
+    margin-top: 8px;
+    width: 120px;
+  }
+  a {
+    text-decoration: none;
+  }
+`
+
+export const DivLinguagens = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+  width: 10vw;
+
+  img {
+    width: 30px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: 10px;
+  }
 `

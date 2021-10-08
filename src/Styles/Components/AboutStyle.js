@@ -20,7 +20,7 @@ export const AboutContainer = styled.div`
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 270, 0);
   }
   h1 {
     font-size: 40px;
