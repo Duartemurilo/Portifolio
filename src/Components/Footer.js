@@ -10,7 +10,7 @@ function Footer() {
   return (
     <FooterContainer>
       <TextFooter>
-        <p>Vivendo e aprendendo </p>
+        <p>Vivendo e aprendendo</p>
         <p>um dia de cada vez..</p>
       </TextFooter>
       <ContainerSocialMedia>

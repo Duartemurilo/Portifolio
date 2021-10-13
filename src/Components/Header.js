@@ -22,7 +22,9 @@ function Header() {
             <a href="#web">Trabalhe comigo</a>
           </li>
         </ul>
-        <button>Contante -me</button>
+        <button>
+          <a href={'https://api.whatsapp.com/send/?phone=%2B5515981078528&text&app_absent=0'}>Contante -me</a>
+        </button>
       </div>
     </HeaderContainer>
   )

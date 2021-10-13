@@ -14,7 +14,7 @@ function Projects() {
       image: NetflixImage,
       link: 'https://clonenetflixmd.surge.sh/',
       about:
-        'Projeto que tem o objetivo de clonar algumas paginas do netflix com o intuito de desenvolver abilidades tecnicas, pricipalmente manipulação de APIs e estilizaçåo .',
+        'Projeto que tem o objetivo de clonar algumas paginas do netflix com o intuito de desenvolver habilidades técnicas, principalmente manipulação de APIs e estilizaçåo.',
     },
     {
       name: 'Spotify Clone',
@@ -23,7 +23,7 @@ function Projects() {
       link: 'https://spotify-clone-md.surge.sh/',
 
       about:
-        'Como mais um amante da musica e por ser fascinado pela facilidade e qualidade que o spotify nos disponibiliza, tive a ideia de fazer um clone do spotify que tem como de desenvolver abilidades tecnicas, pricipalmente manipulação da API disponibilizada pelo própio spotify.',
+        'Como um amante da música e por ser fascinado pela facilidade e qualidade que o spotify nos disponibiliza, tive a ideia de fazer um clone do spotify que tem como de desenvolver habilidades técnicas, principalmente manipulação da API disponibilizada pelo próprio spotify.',
     },
     {
       name: 'Ifood mobile Clone ',
@@ -31,7 +31,7 @@ function Projects() {
       image: IfoodImage,
       link: 'https://ifood-clonemd.surge.sh/',
       about:
-        'Projeto que tem o objetivo de clonar o app de smartphone do ifood com a proposta de desenvolver habilidades tecnicas como manipulaçåode APIs, armazenamendo de dados da localStorage,HOOKS e muito mais..',
+        'Projeto que tem o objetivo de clonar o app de smartphone do ifood com a proposta de desenvolver habilidades técnicas como manipulação de APIs, armazenamento de dados da localStorage, hooks e muito mais…',
     },
     {
       name: 'Nubank LandingPage ',

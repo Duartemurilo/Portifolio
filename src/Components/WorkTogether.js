@@ -14,8 +14,8 @@ function WorkTogheter() {
       </WorkTogetherLeft>
       <WorkTogetherMidlle>
         {' '}
-        <p>Interesado em trabalhar comigo? </p>
-        <p>Vamos coversar </p>
+        <p>Interessado em trabalhar comigo?</p>
+        <p>Vamos conversar! </p>
       </WorkTogetherMidlle>
       <WorkTogetherRight>
         <button>

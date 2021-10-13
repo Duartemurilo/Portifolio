@@ -14,7 +14,7 @@ function Skils() {
             Desenvolvedor Front-end{' '}
           </p>
           <p>
-            Gosto de ajudar em projetos mas tambem gosto de fazer projetos do zero e gosto de dar vida às minhas
+            Gosto de ajudar em projetos , mas também gosto de fazer projetos do zero e gosto de dar vida às minhas
             melhores ideias.
           </p>
         </ResumeFrontEnd>
