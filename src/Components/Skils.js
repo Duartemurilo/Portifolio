@@ -9,7 +9,7 @@ function Skils() {
         <ImportantDevicesOutlinedIcon style={{ fontSize: 80 }} />
       </SkilLeft>
       <SkilRight>
-        <ResumeFrontEnd style={{ borderRight: '2px solid #e6ecf8', paddingRight: '10px' }}>
+        <ResumeFrontEnd>
           <p style={{ fontSize: 20, fontWeight: 'bold', marginTop: '7vh', color: '#4da9ff' }}>
             Desenvolvedor Front-end{' '}
           </p>

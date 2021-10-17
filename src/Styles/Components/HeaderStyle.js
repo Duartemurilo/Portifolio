@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BreakPoints from '../../Constants/BreakPoints'
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -34,7 +35,7 @@ export const HeaderContainer = styled.div`
     button {
       width: 15vw;
       font-size: 16px;
-      color: #4da9ff;
+
       font-family: 'Poiret One', cursive;
       font-weight: bold;
       cursor: pointer;
@@ -48,15 +49,46 @@ export const HeaderContainer = styled.div`
       a {
         text-decoration: none;
         color: #4da9ff;
+        :hover {
+          color: white;
+        }
       }
       :hover {
         transform: scale(1.1);
         background-color: #4da9ff;
-        color: white;
-        a {
-          color: white;
-        }
       }
     }
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+  display: flex;
+  width: 90%;
+  height: 14vh;
+  align-items: center;
+  justify-content: flex-end;
+  button {
+    width: 40%;
+    font-size: 16px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40%;
+    border: 2px solid #4da9ff;
+    border-radius: 20px;
+    padding: 5px;
+    background: none;
+    margin-right: 8vw;
+    a {
+      text-decoration: none;
+      color: #4da9ff;
+      :hover {
+        color: white;
+      }
+      :hover {
+        transform: scale(1.1);
+        background-color: #4da9ff;
+      }
+    }
+  }
+}`}
 `
+export const HeaderContainerPhone = styled.div``

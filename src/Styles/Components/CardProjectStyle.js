@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BreakPoints from '../../Constants/BreakPoints'
 
 export const CardProjectContainer = styled.div`
   display: flex;
@@ -14,6 +15,15 @@ export const CardProjectContainer = styled.div`
     color: white;
     font-size: 25px;
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+  display: flex;
+  margin-top:4vh
+  background-color: blue;
+  width: 90vw;
+  height: 45vh;
+  max-height: 45vh;
+ 
+  }`}
 `
 export const CardAbout = styled.div`
   display: flex;
@@ -61,4 +71,15 @@ export const CardAbout = styled.div`
       color: white;
     }
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+  width: 90vw;
+  height:45vh;
+  p {
+    color: white;
+    font-size: 18px;
+  }
+  button{
+    width:40vw
+  }
+}`}
 `

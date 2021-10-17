@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import BreakPoints from '../../Constants/BreakPoints'
 
 export const ContainerWorkTogether = styled.div`
   display: flex;
@@ -9,6 +10,7 @@ export const ContainerWorkTogether = styled.div`
   position: relative;
   margin-top: 15vh;
   margin-bottom: -10vh;
+
   button {
     width: 15vw;
     font-size: 16px;
@@ -34,6 +36,14 @@ export const ContainerWorkTogether = styled.div`
       }
     }
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 30vh;
+  }`}
 `
 export const WorkTogetherLeft = styled.div`
   display: flex;
@@ -45,9 +55,15 @@ export const WorkTogetherLeft = styled.div`
   color: white;
   border-bottom-right-radius: 0px;
   align-items: center;
+
   h1 {
     margin-left: 2vw;
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+     font-size: 14px;
+    
+     width: 100%;
+  }`}
 `
 export const WorkTogetherMidlle = styled.div`
   display: flex;
@@ -57,6 +73,7 @@ export const WorkTogetherMidlle = styled.div`
   height: 100%;
   border-radius: 10px;
   width: 33%;
+
   p {
     margin: 0;
     color: white;
@@ -64,6 +81,15 @@ export const WorkTogetherMidlle = styled.div`
   }
 
   border-bottom-left-radius: 0px;
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    
+     width: 100%;
+     p {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+  }
+  }`}
 `
 export const WorkTogetherRight = styled.div`
   display: flex;
@@ -72,6 +98,13 @@ export const WorkTogetherRight = styled.div`
   height: 100%;
   border-radius: 10px;
   width: 33%;
-
   border-bottom-left-radius: 0px;
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    
+    width: 100%;
+    button{
+      width:60%;
+    }
+ }
+ }`}
 `

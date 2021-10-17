@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import BreakPoints from '../../Constants/BreakPoints'
 
 export const BannerContainer = styled.div`
   display: flex;
@@ -14,6 +15,7 @@ export const BannerContainer = styled.div`
     color: #111212;
     margin-bottom: 0;
   }
+
   h2 {
     color: #0a0a0ae6;
     font-size: 20px;
@@ -25,6 +27,22 @@ export const BannerContainer = styled.div`
     border: none;
     border-radius: 300px;
   }
+
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    h1 {
+    font-size: 30px;
+    color: #111212;
+    padding: 10px;
+    font-weight: bold;
+
+  }
+  h2 {
+    color: #0a0a0ae6;
+    font-size: 20px;
+    
+  }
+  
+  }`}
 `
 const SlideLeft = keyframes`
   0% {
@@ -59,6 +77,11 @@ export const ContainerTitle = styled.div`
   justify-content: center;
   margin-top: 10vh;
   animation: ${ScaleInCenter} 2s;
+
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    width: 90%;
+    margin-top: 2vh;
+`}
 `
 export const ContainerImage = styled.div`
   height: 30vh;

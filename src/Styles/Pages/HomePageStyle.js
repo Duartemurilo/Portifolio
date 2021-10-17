@@ -6,7 +6,7 @@ export const HomeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   font-family: 'Poiret One', cursive;
   font-weight: bold;
+  overflow-x: hidden;
 `

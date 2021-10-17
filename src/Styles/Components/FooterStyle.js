@@ -1,4 +1,5 @@
 import styled, { keyframes } from 'styled-components'
+import BreakPoints from '../../Constants/BreakPoints'
 
 export const FooterContainer = styled.div`
   display: flex;
@@ -6,7 +7,6 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-
   height: 50vh;
   background: linear-gradient(180deg, rgba(0, 145, 255, 1) 4%, rgba(0, 166, 230, 1) 92%);
 `
@@ -27,14 +27,26 @@ export const TextFooter = styled.div`
     margin-bottom: 0;
     color: white;
   }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    width: 100%;
+
+     
+    }
+ }
+ }`}
 `
 
 export const ContainerSocialMedia = styled.div`
   display: flex;
   width: 40vw;
   height: 10vh;
-
   justify-content: space-evenly;
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    width: 90%;
+  
+    }
+ }
+ }`}
 `
 
 const Animate = keyframes`

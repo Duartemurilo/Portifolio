@@ -14,7 +14,7 @@ function Projects() {
       image: NetflixImage,
       link: 'https://clonenetflixmd.surge.sh/',
       about:
-        'Projeto que tem o objetivo de clonar algumas paginas do netflix com o intuito de desenvolver habilidades técnicas, principalmente manipulação de APIs e estilizaçåo.',
+        'Projeto que tem o objetivo de clonar algumas páginas do netflix com o intuito de desenvolver habilidades técnicas, principalmente manipulação de APIs e estilizaçåo.',
     },
     {
       name: 'Spotify Clone',
