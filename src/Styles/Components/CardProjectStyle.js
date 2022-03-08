@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import BreakPoints from '../../Constants/BreakPoints'
+import BreakPoints from "../../Constants/BreakPoints";
+import styled from "styled-components";
 
 export const CardProjectContainer = styled.div`
   display: flex;
@@ -15,6 +15,7 @@ export const CardProjectContainer = styled.div`
     color: white;
     font-size: 25px;
   }
+
   ${`@media only screen and ${BreakPoints.device.cel} {
   display: flex;
   margin-top:4vh
@@ -24,7 +25,8 @@ export const CardProjectContainer = styled.div`
   max-height: 45vh;
  
   }`}
-`
+`;
+
 export const CardAbout = styled.div`
   display: flex;
   flex-direction: column;
@@ -33,7 +35,11 @@ export const CardAbout = styled.div`
   position: absolute;
   width: 30vw;
   height: 36vh;
-  background: linear-gradient(288deg, rgba(12, 0, 64, 1) 0%, rgba(28, 0, 148, 1) 92%);
+  background: linear-gradient(
+    288deg,
+    rgba(12, 0, 64, 1) 0%,
+    rgba(28, 0, 148, 1) 92%
+  );
   transition: all ease 1s;
   cursor: default;
   border-radius: 20px;
@@ -53,7 +59,7 @@ export const CardAbout = styled.div`
     width: 15vw;
     font-size: 16px;
     color: #4da9ff;
-    font-family: 'Poiret One', cursive;
+    font-family: "Poiret One", cursive;
     cursor: pointer;
     height: 6vh;
     border: 2px solid #4da9ff;
@@ -82,4 +88,4 @@ export const CardAbout = styled.div`
     width:40vw
   }
 }`}
-`
+`;

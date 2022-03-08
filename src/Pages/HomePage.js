@@ -1,13 +1,13 @@
-import React from 'react'
-import About from '../Components/About'
-import Banner from '../Components/Banner'
-import Footer from '../Components/Footer'
-import Header from '../Components/Header'
-import Projects from '../Components/Projects'
-import Skils from '../Components/Skils'
-import WorkTogheter from '../Components/WorkTogether'
+import React from "react";
+import About from "../Components/About";
+import Banner from "../Components/Banner";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header/Header";
+import Projects from "../Components/Projects/Projects";
+import Skils from "../Components/Skils";
+import WorkTogheter from "../Components/WorkTogether";
 
-import { HomeContainer } from '../Styles/Pages/HomePageStyle'
+import { HomeContainer } from "../Styles/Pages/HomePageStyle";
 
 function HomePage() {
   return (
@@ -20,7 +20,7 @@ function HomePage() {
       <WorkTogheter />
       <Footer />
     </HomeContainer>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

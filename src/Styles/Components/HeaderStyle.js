@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import BreakPoints from '../../Constants/BreakPoints'
+import styled from "styled-components";
+import BreakPoints from "../../Constants/BreakPoints";
 
 export const HeaderContainer = styled.div`
   display: flex;
@@ -8,17 +8,17 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   transition: all ease 1s;
-
   div {
     display: flex;
     align-items: center;
     width: 60vw;
     color: #4da9ff;
     height: 100%;
+
     ul {
       display: flex;
-      width: 100%;
-      font-size: 18px;
+      width: 20%;
+      font-size: 20px;
       align-items: center;
       justify-content: space-evenly;
       list-style-type: none;
@@ -26,6 +26,9 @@ export const HeaderContainer = styled.div`
       li {
         display: inline-block;
         position: relative;
+        :hover {
+          transform: scale(1.1);
+        }
       }
       a {
         text-decoration: none;
@@ -35,27 +38,28 @@ export const HeaderContainer = styled.div`
     button {
       width: 15vw;
       font-size: 16px;
-
-      font-family: 'Poiret One', cursive;
-      font-weight: bold;
+      color: #4da9ff;
       cursor: pointer;
       height: 6vh;
       border: 2px solid #4da9ff;
       border-radius: 20px;
       padding: 5px;
       background: none;
-      margin-right: 4vw;
+      font-family: "Poiret One", cursive;
       font-weight: bold;
+      margin-right: 10vw;
+      margin-left: 5vw;
       a {
         text-decoration: none;
         color: #4da9ff;
-        :hover {
-          color: white;
-        }
       }
       :hover {
         transform: scale(1.1);
         background-color: #4da9ff;
+        color: white;
+        a {
+          color: white;
+        }
       }
     }
   }
@@ -90,5 +94,5 @@ export const HeaderContainer = styled.div`
     }
   }
 }`}
-`
-export const HeaderContainerPhone = styled.div``
+`;
+export const HeaderContainerPhone = styled.div``;
