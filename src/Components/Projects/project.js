@@ -10,7 +10,7 @@ export const projects = [
     image: NetflixImage,
     link: "https://clonenetflixmd.surge.sh/",
     about:
-      "Projeto que tem o objetivo de clonar algumas páginas do netflix com o intuito de desenvolver habilidades técnicas, principalmente manipulação de APIs e estilizaçåo.",
+      "O Netflix clone foi um dos meus primeiros projetos, fiz ele com o objetivo de testar meus conhecimentos com APIS e estilização, é um site responsivo e com bastante detalhes.",
   },
   {
     name: "Spotify Clone",
@@ -19,7 +19,7 @@ export const projects = [
     link: "https://spotify-react-clone-md.surge.sh/",
 
     about:
-      "Como um amante da música e por ser fascinado pela facilidade e qualidade que o spotify nos disponibiliza, tive a ideia de fazer um clone do spotify que tem como de desenvolver habilidades técnicas, principalmente manipulação da API disponibilizada pelo próprio spotify.",
+      "Como um amante da música e por ser fascinado pela facilidade e qualidade que o spotify nos disponibiliza, tive a ideia de fazer um clone do spotify que tem como objetivo  desenvolver habilidades técnicas, principalmente manipulação da API disponibilizada pelo próprio spotify.",
   },
   {
     name: "Game-React ",
@@ -27,7 +27,7 @@ export const projects = [
     link: "https://game-md.surge.sh/",
     image: tileset,
     about:
-      "Como um apaixonado por jogo decidi fazer o meu com uma proposta simples e divertida.",
+      "Esse game foi o meu mais recente projeto, como um apaixonado por jogos desde infância, resolvi criar o meu com uma proposta simples e divertida.",
   },
   {
     name: "Nubank LandingPage ",
@@ -35,6 +35,6 @@ export const projects = [
     image: NubankImage,
     link: "https://nubank-react-landing-page-md.surge.sh/",
     about:
-      "Projeto que tem o intuito de clonar a landingpage do nubank com o proposito de aprender mais sobre estilização.",
+      "Essa landingpage foi um grande desafio de design, utilizei conhecimentos de UX para construir esse projeto.",
   },
 ];

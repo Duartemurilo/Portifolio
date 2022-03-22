@@ -14,7 +14,12 @@ export const HeaderContainer = styled.div`
     width: 60vw;
     color: #4da9ff;
     height: 100%;
-
+    p {
+      padding-bottom: 5px;
+      :hover {
+        border-bottom: 1.5px solid #4da9ff;
+      }
+    }
     ul {
       display: flex;
       width: 20%;
@@ -49,6 +54,7 @@ export const HeaderContainer = styled.div`
       font-weight: bold;
       margin-right: 10vw;
       margin-left: 5vw;
+
       a {
         text-decoration: none;
         color: #4da9ff;

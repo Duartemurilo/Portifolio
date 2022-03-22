@@ -2,9 +2,9 @@ import React from "react";
 import {
   CardAbout,
   CardProjectContainer,
-} from "../Styles/Components/CardProjectStyle";
+} from "../../Styles/Components/CardProjectStyle";
 
-function CardProject({ project }) {
+function ({ project }) {
   return (
     <CardProjectContainer
       style={{

@@ -3,7 +3,7 @@ import {
   ContainerProject,
   ProjectContanier,
 } from "../../Styles/Components/ProjectsStyle";
-import CardProject from "../CardProject";
+import CardProject from "../CardProjects/CardProject";
 import { projects } from "./project";
 
 function Projects() {

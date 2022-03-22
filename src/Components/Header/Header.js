@@ -11,7 +11,6 @@ function Header() {
     <>
       {isActive ? (
         <HeaderContainer>
-          alalalall
           <button>
             <a
               href={

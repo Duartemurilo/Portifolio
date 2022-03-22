@@ -1,5 +1,5 @@
-import styled, { keyframes } from 'styled-components'
-import BreakPoints from '../../Constants/BreakPoints'
+import styled, { keyframes } from "styled-components";
+import BreakPoints from "../../Constants/BreakPoints";
 
 export const BannerContainer = styled.div`
   display: flex;
@@ -43,7 +43,7 @@ export const BannerContainer = styled.div`
   }
   
   }`}
-`
+`;
 const SlideLeft = keyframes`
   0% {
     -webkit-transform: translateX(-1000px);
@@ -56,7 +56,7 @@ const SlideLeft = keyframes`
     opacity: 1;
   }
 }
-`
+`;
 
 const ScaleInCenter = keyframes`
 0% {
@@ -69,7 +69,7 @@ const ScaleInCenter = keyframes`
             transform: scale(1);
     opacity: 1;
   }
-`
+`;
 export const ContainerTitle = styled.div`
   display: flex;
   flex-direction: column;
@@ -82,11 +82,12 @@ export const ContainerTitle = styled.div`
     width: 90%;
     margin-top: 2vh;
 `}
-`
+`;
 export const ContainerImage = styled.div`
   height: 30vh;
   animation: ${SlideLeft} 2s;
   border-radius: 230px;
   background-color: #4da9ff;
   margin-top: 10vh;
-`
+  border: 6px solid white;
+`;

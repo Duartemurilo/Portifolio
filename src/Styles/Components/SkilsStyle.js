@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import BreakPoints from '../../Constants/BreakPoints'
+import styled from "styled-components";
+import BreakPoints from "../../Constants/BreakPoints";
 
 export const SkilContainer = styled.div`
   display: flex;
@@ -10,14 +10,14 @@ export const SkilContainer = styled.div`
   border: 1px solid #e6ecf8;
   margin-bottom: 5vw;
   margin-top: -20vh;
-
   ${`@media only screen and ${BreakPoints.device.cel} {
-   height: 120vh;
+   height: 110vh;
    border: 1px solid #d9d9d9;
    flex-direction: column;
    align-items: center;
+  
   }`}
-`
+`;
 export const SkilLeft = styled.div`
   display: flex;
   height: 40vh;
@@ -29,17 +29,15 @@ export const SkilLeft = styled.div`
   align-items: center;
 
   ${`@media only screen and ${BreakPoints.device.cel} {
-
     width: 100%;
     height: 10vh;
     margin-top:5vh
   }`}
-`
+`;
 export const SkilRight = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
   p {
     color: #141c3a;
     margin-top: 0;
@@ -53,12 +51,11 @@ export const SkilRight = styled.div`
   ${`@media only screen and ${BreakPoints.device.cel} {
   dispay:flex;
   flex-direction: column;
-
   width: 100%;
   height: 100%
   
 }`}
-`
+`;
 
 export const ResumeFrontEnd = styled.div`
   display: flex;
@@ -69,7 +66,13 @@ export const ResumeFrontEnd = styled.div`
   max-width: 33%;
   height: 60%;
   margin-left: 0.5vw;
-
+  #Title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4da9ff;
+    margin-top: 6vh;
+    margin-bottom: 5px;
+  }
   ul {
     display: flex;
     width: 20%;
@@ -89,28 +92,16 @@ export const ResumeFrontEnd = styled.div`
   }
   ${`@media only screen and ${BreakPoints.device.cel} {
   display: flex;
-
   flex-direction: column;
-  margin-top:2vh;
-
   width: 90%;
   min-width: 85%;
-  height: 60%;
-  padding: 10px;
-  ul {
-    display: flex;
-    width: 20%;
-    font-size: 18px;
-    list-style-type: none;
-    flex-direction: column;
-    margin-top: 0;
-    font-size: 20px;
-   
-
+  height: 37%;
+  #Title {
+    margin-bottom: 1vh;
   }
   
 }`}
-`
+`;
 
 export const DivLinguagens = styled.div`
   display: flex;
@@ -129,7 +120,6 @@ export const DivLinguagens = styled.div`
   }
   ${`@media only screen and ${BreakPoints.device.cel} {
     display: flex;
-    padding-left: 220px;
     justify-content:center
     align-items: center;
     margin-top: 1vh;
@@ -137,4 +127,29 @@ export const DivLinguagens = styled.div`
     max-width: 100%;
    
   }`}
-`
+`;
+
+export const DivTools = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+  width: 10vw;
+
+  img {
+    width: 30px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  ${`@media only screen and ${BreakPoints.device.cel} {
+    display: flex;
+    justify-content:center
+    align-items: center;
+    margin-top: 1vh;
+    width: 32vw;
+    max-width: 100%;  
+  }`}
+`;
